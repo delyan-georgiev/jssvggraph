@@ -11,7 +11,7 @@ function Graph( canvas_name, width, height ) {
 	this.stepsize = 0.0005;
 	this.iteration = 0;
 	this.task = null;
-
+  	// todo make a pull request
 	// tunables to adjust the layout
 	this.repulsion = 200000; // repulsion constant, adjust for wider/narrower spacing
 	this.spring_length = 20; // base resting length of springs
